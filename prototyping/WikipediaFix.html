@@ -11598,13 +11598,15 @@
 
       }
       var text = JSON.stringify(entries);
-      // console.log(text);
+      console.log(text);
     }
 
   function getYear(html) {
-    var years = html.match(((\()?(January|February|March|April|May|June|July|August|September|October|November|December) ([1-3][0-9]|[1-9]), ?([1-2])([0-9]){3}(\))?|\(([1-2])([0-9]){3}\)));
-    console.log(years.length, years);
-    return years;
+    var year = html.match(/((\()?(January|February|March|April|May|June|July|August|September|October|November|December) ([1-3][0-9]|[1-9]), ?([1-2])([0-9]){3}(\))?|\(([1-2])([0-9]){3}\))/);
+    if (year != null) {
+      year = year[0].match(/([1-2])([0-9]){3}/)[0];
+    }
+    return year;
   }
 
   function getReferencesByChild(child) {
@@ -11614,12 +11616,12 @@
     for (reference of references) {
       var id = reference.getElementsByTagName("A")[0].href.split("#")[1];
       var note = document.getElementById(id);
-      var years = getYear(note.innerText);
+      var year = getYear(note.innerText);
       currentReference = {
         id: reference.innerText.replace("[", "").replace("]", ""),
         text: note.innerText,
         html: note.innerHTML,
-        years: years
+        year: year
       }; 
       returnReferences.push(currentReference);
     }
