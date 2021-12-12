@@ -27,5 +27,5 @@ for (const year of years) {
     if (year <=1900 || year>2021) {
         
     }
-    console.log(year);
+    // console.log(year);
 }
