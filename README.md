@@ -1,6 +1,6 @@
 # Misconceptions
 
-**
+*
 
 
 ## Make it Yours!
