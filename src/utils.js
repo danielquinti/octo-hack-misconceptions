@@ -1,4 +1,4 @@
-import dbJSON from "./db.json";
+import dbJSON from "./data/db.json";
 
 const minOffset = 10;
 const maxOffset = 2;
