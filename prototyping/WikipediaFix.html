@@ -11566,9 +11566,12 @@
               return;
             }
             theme = entry.innerText.replace("[edit]", "");
+            category = "";
+            subcategory = "";
             break;
           case 'H3':
             category = entry.getElementsByTagName("SPAN")[0].innerText.replace("[edit]", "");
+            subcategory = "";
             break;
           case 'H4':
             subcategory = entry.innerText.replace("[edit]", "");
