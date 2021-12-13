@@ -4,7 +4,7 @@ export const Services = (props) => {
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>{props.data.themeName}</h2>
+          <h1>{props.data.themeName}</h1>
         </div>
         <div className='row'>
           {props.data.categories
@@ -21,7 +21,7 @@ export const Services = (props) => {
                             <div key={`${sc.subcategoryName}-${i}`} className='col-md'>
                               {' '}
                               <div className='service-desc'>
-                                <h3>{sc.subcategoryName}</h3>
+                                <h4>{sc.subcategoryName}</h4>
                                 
 
                                 <div className='row'>

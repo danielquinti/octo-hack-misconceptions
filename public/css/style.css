@@ -11,6 +11,9 @@ html {
 .logo {
   height: 50px;
 }
+a {
+  color: black
+}
 h2,
 h3,
 h4 {
@@ -46,7 +49,7 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: black;
   font-weight: 400;
 }
 a:hover,

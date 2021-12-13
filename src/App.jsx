@@ -10,7 +10,7 @@ import getMisconceptionsByYear from './utils.js';
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
+  speed: 1005,
   speedAsDuration: true,
 });
 
