@@ -1,5 +1,6 @@
 {
-  "homepage":"https://danielquinti.github.io/octo-hack-misconceptions",
+  "homepages":"https://danielquinti.github.io/octo-hack-misconceptions",
+  "homepage":".",
   "name": "misconceptions",
   "private": true,
   "dependencies": {
