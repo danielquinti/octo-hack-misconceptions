@@ -17,7 +17,7 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (
-                        <a href={d.link}>
+                        <a href={d.link} key={i}>
                           <li key={`${d.text}-${i}`}>{d.text}</li>
                         </a>
                         ))

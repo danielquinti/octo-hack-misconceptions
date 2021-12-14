@@ -59,6 +59,7 @@ export const Header = (props) => {
                     className="btn btn-custom btn-lg page-scroll"
                     style={{padding: "10 20"}}
                     onClick={handleSubmitYear}
+                    href='#services'
                   >
                     Get truth
                   </a>{" "}
