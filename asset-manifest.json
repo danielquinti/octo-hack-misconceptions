@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/octo-hack-misconceptions/static/css/main.83b5dced.chunk.css",
+    "main.js": "/octo-hack-misconceptions/static/js/main.888a5fe9.chunk.js",
+    "main.js.map": "/octo-hack-misconceptions/static/js/main.888a5fe9.chunk.js.map",
+    "runtime-main.js": "/octo-hack-misconceptions/static/js/runtime-main.2f16f237.js",
+    "runtime-main.js.map": "/octo-hack-misconceptions/static/js/runtime-main.2f16f237.js.map",
+    "static/js/2.f4c5f158.chunk.js": "/octo-hack-misconceptions/static/js/2.f4c5f158.chunk.js",
+    "static/js/2.f4c5f158.chunk.js.map": "/octo-hack-misconceptions/static/js/2.f4c5f158.chunk.js.map",
+    "index.html": "/octo-hack-misconceptions/index.html",
+    "static/css/main.83b5dced.chunk.css.map": "/octo-hack-misconceptions/static/css/main.83b5dced.chunk.css.map",
+    "static/js/2.f4c5f158.chunk.js.LICENSE.txt": "/octo-hack-misconceptions/static/js/2.f4c5f158.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f16f237.js",
+    "static/js/2.f4c5f158.chunk.js",
+    "static/css/main.83b5dced.chunk.css",
+    "static/js/main.888a5fe9.chunk.js"
+  ]
+}
