@@ -1,5 +1,6 @@
 {
-  "name": "landingpage-react-template",
+  "homepage":"https://beltranaceves.github.io/octo-hack-misconceptions",
+  "name": "misconceptions",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
