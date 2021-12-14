@@ -18,7 +18,7 @@ export const Navigation = (props) => {
           <a className='navbar-brand page-scroll' href='#page-top'>
             Misconceptions
           </a>{' '}
-          <img src={"https://cdn-icons-png.flaticon.com/512/3798/3798376.png"} class="logo"></img>
+          <img src={"https://cdn-icons-png.flaticon.com/512/3798/3798376.png"} className="logo"></img>
         </div>
 
         <div
