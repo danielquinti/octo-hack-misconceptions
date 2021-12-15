@@ -1,5 +1,4 @@
 export const Services = (props) => {
-  console.log(props);
   return (
     <div id='services' className='text-center'>
       <div className='container'>
