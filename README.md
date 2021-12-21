@@ -13,7 +13,7 @@ Being fully static, the project can be deployed with Github Pages like [here](ht
 
 All the information comes from [Wikipedia's List of Common Misconceptions](https://en.wikipedia.org/wiki/List_of_common_misconceptions#cite_note-34).
 We parsed the data into a small JSON with the following model:
-```
+```javascript
 Entries: {
             0: {
               theme,
@@ -34,7 +34,7 @@ Entries: {
           }
 ```
 During runtime, given a year, data gets queried and transformed into a suitable format for React:
-```
+```javascript
 Entries: {
             0: {
               themeName,
