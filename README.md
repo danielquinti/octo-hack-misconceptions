@@ -71,7 +71,7 @@ Then:
 - Enter the directory
 
 ```bash
-    cd oct-hack-misconceptions
+    cd octo-hack-misconceptions
 ```
 
 - Install dependencies
