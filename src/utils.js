@@ -46,7 +46,6 @@ function misconceptionArrayToJSON(misconceptions) {
             }
         };
     }
-    console.log(newMisconceptions);
     return newMisconceptions;
 }
 
